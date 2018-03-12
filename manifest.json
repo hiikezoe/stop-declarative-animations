@@ -13,6 +13,6 @@
   },
 
   "browser_action": {
-    "default_icon": "watch-active.svg"
+    "default_icon": "watch-active.svg#active"
   }
 }
