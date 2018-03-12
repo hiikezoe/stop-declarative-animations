@@ -1,0 +1,4 @@
+body *, body *::before, body *::after {
+  transition-timing-function: steps(1, start) !important;
+  animation-timing-function: steps(1, start) !important;
+}

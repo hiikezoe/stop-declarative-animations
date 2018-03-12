@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "StopDeclarativeAnimations",
+  "version": "1.0",
+  "description": "Stop all CSS animatons and transitions",
+  "permissions": [
+    "tabs"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "all_frames": true,
+      "css": ["stop-declarative-animations.css"]
+    }
+  ]
+}
